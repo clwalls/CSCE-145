@@ -1,0 +1,13 @@
+/**
+ * Auto Generated Java Class.
+ */
+public class TacoDB {
+  
+  public static final int NUM_TACOS = 10;
+  public static void main(String[] args) { 
+    String[] names = new String[NUM_TACOS];
+  }
+  
+  /* ADD YOUR CODE HERE */
+  
+}

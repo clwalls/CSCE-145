@@ -1,0 +1,19 @@
+Christopher Walls  8/28/17
+Sara Kosnosky 
+
+Lab Questions:
+Does your algorithm work for any number of cards?  If not describe how it can be altered to accommodate this. 
+
+	We think that it works for any number of cards. 
+
+
+If we were sorting cards, as before, from the smallest value to the largest value then describe how the cards would have to be ordered that would take the longest time to sort?
+	
+The cards that would take the longest time to sort would be in cases where a lower valued card is placed next to a higher value card, where it will keep going down the stack and have to reevaluate the entire stack for each card.  
+
+Flip over card at P0. 
+Then flip over card at P1. 
+If P1=P0 cards remain in position and P0 is flipped back over. 
+If P0<P1, P0 is flipped back over.
+Iff P0>P1 then they exchange positions and the lower card is flipped back over.  
+Now compare P1 and P2 with the same limitations as comparing P0 and P1 continuing and reevaluating till the end of your positions and cards no longer exchange. 
